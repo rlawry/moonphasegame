@@ -1,0 +1,20 @@
+<html>
+<link rel="stylesheet" href="main.css">
+<div class = "information" id="illumination"></div>
+<div class = "target" id="target">New Game</div>
+<div class = "button-dock">
+    <div class="button" id="submit" onclick = "score()">submit</div>
+    <div class="row">
+        <div class="score-msg" id="mistake">New Game</div>
+    </div>
+    <div class="row">
+        <div class="score-msg" id="points">0 points</div>
+        <div class="score-msg" id="winPercent">&infin;% W/L</div>
+    </div>
+    <div class="row">
+        <div class="instructions">Scroll to change the phase so it matches the target.  Submit when you are done.</div>
+    </div>
+</div>
+<canvas id="canvas" width="200" height="200"></canvas>
+<script src="phase.js"></script>
+</html>
